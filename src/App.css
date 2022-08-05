@@ -23,8 +23,9 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
+  max-width: 450px;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #fff;
 }
 
@@ -35,7 +36,7 @@ img {
 .container {
   width: 80%;
   margin: auto;
-  padding: 1.2em 0;
+  padding: 1.2em 0 1.5em 0;
 }
 
 .text h2 {
@@ -46,6 +47,7 @@ img {
 
 .text p {
   font-size:  16px;
+  font-weight: 500;
   color: hsl(224, 23%, 55%);
   line-height: 25px;
   padding-bottom: 1.5em;
@@ -64,6 +66,9 @@ img {
   width: 40%;
   text-align: left;
 }
+.row .two h4 {
+  font-weight: 900; 
+}
 
 .row .two span {
   font-size:  16px;
@@ -72,6 +77,13 @@ img {
 .row .three a {
   font-size: 14px;
   font-weight: 900;
+}
+
+.row .three a:hover {
+  transition: all .5 ease;
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(118, 108, 241);
 }
 
 .text button {
@@ -86,7 +98,19 @@ img {
   box-shadow: 3px 5px 5px rgb(220, 220, 244);
 }
 
+.text button:hover {
+  transition: all .5 ease;
+  cursor: pointer;
+  background: rgb(118, 108, 241);
+}
+
 .text .cancel {
   color: hsl(224, 23%, 55%);
-  font-weight: 700;
+  font-weight: 900;
+}
+
+.text .cancel:hover {
+  transition: all .5 ease;
+  cursor: pointer;
+  color: rgb(118, 108, 241);  
 }
