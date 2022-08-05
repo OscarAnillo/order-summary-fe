@@ -17,3 +17,17 @@ img {
   max-width: 100%;
 }
 
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  margin: auto;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+.hero {
+  border-radius: 10px 10px 0 0;
+}
