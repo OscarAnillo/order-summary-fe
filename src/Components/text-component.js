@@ -4,19 +4,19 @@ export default function TextComponent(){
             <h2>Order Summary</h2>
             <p>You can now listen to millions of songs, audiobooks and podcasts on any device anywhere you like!</p>
             <div className="row">
-                <div>
+                <div className="one">
                     <img src="/images/icon-music.svg"alt="" />
                 </div>
-                <div>
+                <div className="two">
                     <h4>Annual Plan</h4>
-                    <p>59.99/year</p>
+                    <span>59.99/year</span>
                 </div>
-                <div>
-                    <a>Change</a>
+                <div className="three">
+                    <a href="/">Change</a>
                 </div>
             </div>
             <button>Proceed to Payment</button>
-            <span>Cancel Order</span>
+            <span className="cancel">Cancel Order</span>
         </div>
     )
 }

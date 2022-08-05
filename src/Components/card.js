@@ -4,7 +4,7 @@ import TextComponent from "./text-component";
 export default function CardComponent(){
     return (
         <div className="card">
-                <ImageComponent />
+            <ImageComponent />
             <div className="container">
                 <TextComponent />
             </div>

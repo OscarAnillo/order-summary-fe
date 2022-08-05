@@ -24,10 +24,69 @@ img {
   transform: translate(-50%, -50%);
   width: 90%;
   margin: auto;
-  border: 1px solid red;
   border-radius: 10px;
+  background-color: #fff;
 }
 
 .hero {
   border-radius: 10px 10px 0 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 1.2em 0;
+}
+
+.text h2 {
+  padding-bottom: 1em;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.text p {
+  font-size:  16px;
+  color: hsl(224, 23%, 55%);
+  line-height: 25px;
+  padding-bottom: 1.5em;
+}
+
+.row {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.row .two {
+  width: 40%;
+  text-align: left;
+}
+
+.row .two span {
+  font-size:  16px;
+  color: hsl(224, 23%, 55%);
+}
+.row .three a {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.text button {
+  width: 100%;
+  margin: 1.3em 0;
+  padding: 1.2em ;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  font-weight: 900;
+  box-shadow: 3px 5px 5px rgb(220, 220, 244);
+}
+
+.text .cancel {
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
 }
