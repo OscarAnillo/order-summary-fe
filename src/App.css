@@ -23,7 +23,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
-  max-width: 450px;
+  max-width: 410px;
   margin: auto;
   border-radius: 20px;
   background-color: #fff;
@@ -113,4 +113,19 @@ img {
   transition: all .5 ease;
   cursor: pointer;
   color: rgb(118, 108, 241);  
+}
+
+@media (min-width: 760px){
+  .container {
+    padding: 1.2em 0 2.5em 0;
+  }
+  .text h2 {
+    padding: 1em 0 .5em 0;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+  }
+
+  .text button {
+    margin: 2em 0;
+  }
 }
